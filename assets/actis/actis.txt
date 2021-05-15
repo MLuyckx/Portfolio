@@ -1,6 +1,0 @@
-10h	CSC
-10h	ANgular
-10h	React native
-10h	Cadets
-4h	SIEP
-10h	Job étudiant VdW
