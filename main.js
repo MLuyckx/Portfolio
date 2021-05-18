@@ -160,7 +160,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 44, vars: 0, consts: [["id", "header"], ["id", "toolbar"], [1, "itemToolbar", 3, "click"], ["id", "contenu"], [1, "newDiv"], ["home", ""], [1, "paragLink"], [1, "link", 3, "click"], ["profile", ""], ["projetpro", ""], ["portfolio", ""]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 44, vars: 0, consts: [["id", "header"], ["id", "toolbar"], [1, "itemToolbar", 3, "click"], ["id", "contenu"], [1, "newDiv"], ["home", ""], [1, "paragLink"], [1, "link", 3, "click"], ["profile", ""], ["projetpro", ""], ["id", "summaryTable", 1, "newDiv"], ["portfolio", ""]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
@@ -224,7 +224,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "app-projetpro");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 4, 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 10, 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "app-portfolio");
@@ -265,7 +265,7 @@ class ProfileComponent {
     }
 }
 ProfileComponent.ɵfac = function ProfileComponent_Factory(t) { return new (t || ProfileComponent)(); };
-ProfileComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProfileComponent, selectors: [["app-profile"]], decls: 51, vars: 0, consts: [["id", "titleComponent"], ["src", "../../assets/moi.jpg", "id", "autoportrait"], [1, "text"], ["href", "https://www.ephec.be/", "target", "_blank", 1, "link"], ["href", "https://brabant-wallon.secourspompiers.be/", "target", "_blank", 1, "link"], ["href", "https://www.provincedeliege.be/fr/ecoledescadets", "target", "_blank", 1, "link"], [1, "subtext"], ["href", "https://angular.io/", "target", "_blank", 1, "link"], ["href", "https://nodejs.org/en/", "target", "_blank", 1, "link"], ["href", "../../assets/matthieuLuyckxCV_Fr.pdf", "download", "matthieuLuyckxCV_Fr", 1, "link"], ["href", "../../assets/matthieuLuyckxCV_En.pdf", "download", "matthieuLuyckxCV_En", 1, "link"]], template: function ProfileComponent_Template(rf, ctx) { if (rf & 1) {
+ProfileComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProfileComponent, selectors: [["app-profile"]], decls: 55, vars: 0, consts: [["id", "titleComponent"], ["src", "../../assets/moi.jpg", "id", "autoportrait"], [1, "text"], ["href", "https://www.ephec.be/", "target", "_blank", 1, "link"], ["href", "https://brabant-wallon.secourspompiers.be/", "target", "_blank", 1, "link"], ["href", "https://www.provincedeliege.be/fr/ecoledescadets", "target", "_blank", 1, "link"], [1, "newDiv"], [1, "subtext"], ["href", "https://angular.io/", "target", "_blank", 1, "link"], ["href", "https://nodejs.org/en/", "target", "_blank", 1, "link"], ["id", "curriculumVitae", 1, "newDiv"], ["href", "../../assets/matthieuLuyckxCV_Fr.pdf", "download", "matthieuLuyckxCV_Fr", 1, "link"], ["href", "../../assets/matthieuLuyckxCV_En.pdf", "download", "matthieuLuyckxCV_En", 1, "link"]], template: function ProfileComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "PROFIL");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -297,48 +297,54 @@ ProfileComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "J'ai d\u00E9cid\u00E9 de faire des \u00E9tudes d'informatique car c'est une de mes passions dans la vie, j'ai toujours aim\u00E9 toucher \u00E0 ce domaine et j'aimerais continuer \u00E0 y toucher au quotidien dans mon avenir, de n'importe quelle mani\u00E8re que ce soit.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Comp\u00E9tences & Points forts");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Mes comp\u00E9tences dans le milieu informatique sont assez larges, gr\u00E2ces aux \u00E9tudes \u00E0 l'");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "EPHEC");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Comp\u00E9tences & Points forts");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " qui balayent un panel tr\u00E8s large de comp\u00E9tences techniques.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Mes comp\u00E9tences dans le milieu informatique sont assez larges, gr\u00E2ces aux \u00E9tudes \u00E0 l'");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "EPHEC");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Je suis donc tr\u00E8s \u00E0 l'aise avec Javascript, entre autres en utilisant fr\u00E9quement le framework ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Angular");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " qui balayent un panel tr\u00E8s large de comp\u00E9tences techniques.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " dans la cr\u00E9ation de front-end pour des sites, ainsi que ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Node.js");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Je suis donc tr\u00E8s \u00E0 l'aise avec Javascript, entre autres en utilisant fr\u00E9quement le framework ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Angular");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, " dans la cr\u00E9ation de back-end.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, " dans la cr\u00E9ation de front-end pour des sites, ainsi que ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Node.js");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "J'ai \u00E9galement de bonnes notions en infrastructures des r\u00E9seaux, ce domaine \u00E9tant un des cours que j'ai pr\u00E9f\u00E9r\u00E9s durant mes \u00E9tudes, et ayant eu l'occasion de mettre ceci en pratique durant mon stage. Un des aspects les plus chouettes durant ce stage a \u00E9t\u00E9 le fait que le travail sur l'infrastructure \u00E9tait non pas sur des environnements virtuels ni sur du mat\u00E9riel p\u00E9dagogique comme nous avons pu faire en cours, mais sur une r\u00E9elle infrascructure d'entreprise, ce qui apporte une exp\u00E9rience d'autant plus int\u00E9ressante.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " dans la cr\u00E9ation de back-end.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Ma ma\u00EEtrise de l'\u00E9lectronique est \u00E9galement correcte, bien que je n'ai plus tellement pratiqu\u00E9 depuis les derniers cours, mais c'est clairement un sujet que je trouve extr\u00EAmement int\u00E9ressant.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "J'ai \u00E9galement de bonnes notions en infrastructures des r\u00E9seaux, ce domaine \u00E9tant un des cours que j'ai pr\u00E9f\u00E9r\u00E9s durant mes \u00E9tudes, et ayant eu l'occasion de mettre ceci en pratique durant mon stage. Un des aspects les plus chouettes durant ce stage a \u00E9t\u00E9 le fait que le travail sur l'infrastructure \u00E9tait non pas sur des environnements virtuels ni sur du mat\u00E9riel p\u00E9dagogique comme nous avons pu faire en cours, mais sur une r\u00E9elle infrascructure d'entreprise, ce qui apporte une exp\u00E9rience d'autant plus int\u00E9ressante.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "p", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Curriculum Vitae");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Ma ma\u00EEtrise de l'\u00E9lectronique est \u00E9galement correcte, bien que je n'ai plus tellement pratiqu\u00E9 depuis les derniers cours, mais c'est clairement un sujet que je trouve extr\u00EAmement int\u00E9ressant.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Si vous d\u00E9sirez en apprendre plus sur moi, n'h\u00E9sitez pas \u00E0 t\u00E9l\u00E9charger mon CV ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "en fran\u00E7ais");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, " ou ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "en anglais");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Curriculum Vitae");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " me d\u00E9crivant et reprenant mon parcours professionnel.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Si vous d\u00E9sirez en apprendre plus sur moi, n'h\u00E9sitez pas \u00E0 t\u00E9l\u00E9charger mon CV ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "en fran\u00E7ais");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["#titleComponent[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    font-size: 50px;\r\n    font-weight: bolder;\r\n    font-family: \"Garamond\";\r\n}\r\n\r\n#autoportrait[_ngcontent-%COMP%] {\r\n    width: 350px;\r\n    float: left;\r\n    margin: 0 30px 10px 0;\r\n}\r\n\r\n.text[_ngcontent-%COMP%] {\r\n    position: relative;\r\n    font-size: 20px;\r\n    font-family: \"Garamond\";\r\n}\r\n\r\n.subtext[_ngcontent-%COMP%] {\r\n    position: relative;\r\n    font-size: 25px;\r\n    left: 20px;\r\n    font-family: \"Garamond\";\r\n    font-weight: bold;\r\n}\r\n\r\n.link[_ngcontent-%COMP%] {\r\n    color: rgb(255, 166, 0);\r\n    text-decoration: none;\r\n    font-weight: bold;\r\n    font-size: 22px;\r\n}\r\n\r\n.link[_ngcontent-%COMP%]:hover {\r\n    color: rgb(58, 165, 201);\r\n    text-decoration: none;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2ZpbGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLHVCQUF1QjtBQUMzQjs7QUFFQTtJQUNJLFlBQVk7SUFDWixXQUFXO0lBQ1gscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLGVBQWU7SUFDZix1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZUFBZTtJQUNmLFVBQVU7SUFDVix1QkFBdUI7SUFDdkIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksdUJBQXVCO0lBQ3ZCLHFCQUFxQjtJQUNyQixpQkFBaUI7SUFDakIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHdCQUF3QjtJQUN4QixxQkFBcUI7QUFDekIiLCJmaWxlIjoicHJvZmlsZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3RpdGxlQ29tcG9uZW50IHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogNTBweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkZXI7XHJcbiAgICBmb250LWZhbWlseTogXCJHYXJhbW9uZFwiO1xyXG59XHJcblxyXG4jYXV0b3BvcnRyYWl0IHtcclxuICAgIHdpZHRoOiAzNTBweDtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgbWFyZ2luOiAwIDMwcHggMTBweCAwO1xyXG59XHJcblxyXG4udGV4dCB7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICBmb250LWZhbWlseTogXCJHYXJhbW9uZFwiO1xyXG59XHJcblxyXG4uc3VidGV4dCB7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBmb250LXNpemU6IDI1cHg7XHJcbiAgICBsZWZ0OiAyMHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IFwiR2FyYW1vbmRcIjtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4ubGluayB7XHJcbiAgICBjb2xvcjogcmdiKDI1NSwgMTY2LCAwKTtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgZm9udC1zaXplOiAyMnB4O1xyXG59XHJcblxyXG4ubGluazpob3ZlciB7XHJcbiAgICBjb2xvcjogcmdiKDU4LCAxNjUsIDIwMSk7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, " ou ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "en anglais");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " me d\u00E9crivant et reprenant mon parcours professionnel.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["#titleComponent[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    font-size: 50px;\r\n    font-weight: bolder;\r\n    font-family: \"Garamond\";\r\n}\r\n\r\n#autoportrait[_ngcontent-%COMP%] {\r\n    width: 350px;\r\n    float: left;\r\n    margin: 0 30px 10px 0;\r\n}\r\n\r\n.text[_ngcontent-%COMP%] {\r\n    position: relative;\r\n    font-size: 20px;\r\n    font-family: \"Garamond\";\r\n}\r\n\r\n.subtext[_ngcontent-%COMP%] {\r\n    position: relative;\r\n    font-size: 25px;\r\n    left: 20px;\r\n    font-family: \"Garamond\";\r\n    font-weight: bold;\r\n}\r\n\r\n.newDiv[_ngcontent-%COMP%] {\r\n    \r\n    height: 70px;\r\n    top: -3rem;\r\n    \r\n  }\r\n\r\n.newDiv[_ngcontent-%COMP%]   hr[_ngcontent-%COMP%] {\r\n    position: relative;\r\n    border-top: 3px rgb(58, 165, 201);\r\n    border-style: solid none none none;\r\n    top: 34px;\r\n    width: 10%;\r\n  }\r\n\r\n.link[_ngcontent-%COMP%] {\r\n    color: rgb(255, 166, 0);\r\n    text-decoration: none;\r\n    font-weight: bold;\r\n    font-size: 22px;\r\n}\r\n\r\n.link[_ngcontent-%COMP%]:hover {\r\n    color: rgb(58, 165, 201);\r\n    text-decoration: none;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2ZpbGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2YsbUJBQW1CO0lBQ25CLHVCQUF1QjtBQUMzQjs7QUFFQTtJQUNJLFlBQVk7SUFDWixXQUFXO0lBQ1gscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLGVBQWU7SUFDZix1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZUFBZTtJQUNmLFVBQVU7SUFDVix1QkFBdUI7SUFDdkIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksd0JBQXdCO0lBQ3hCLFlBQVk7SUFDWixVQUFVO0lBQ1YsNkJBQTZCO0VBQy9COztBQUVBO0lBQ0Usa0JBQWtCO0lBQ2xCLGlDQUFpQztJQUNqQyxrQ0FBa0M7SUFDbEMsU0FBUztJQUNULFVBQVU7RUFDWjs7QUFFRjtJQUNJLHVCQUF1QjtJQUN2QixxQkFBcUI7SUFDckIsaUJBQWlCO0lBQ2pCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIscUJBQXFCO0FBQ3pCIiwiZmlsZSI6InByb2ZpbGUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiN0aXRsZUNvbXBvbmVudCB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LXNpemU6IDUwcHg7XHJcbiAgICBmb250LXdlaWdodDogYm9sZGVyO1xyXG4gICAgZm9udC1mYW1pbHk6IFwiR2FyYW1vbmRcIjtcclxufVxyXG5cclxuI2F1dG9wb3J0cmFpdCB7XHJcbiAgICB3aWR0aDogMzUwcHg7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbjogMCAzMHB4IDEwcHggMDtcclxufVxyXG5cclxuLnRleHQge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IFwiR2FyYW1vbmRcIjtcclxufVxyXG5cclxuLnN1YnRleHQge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgZm9udC1zaXplOiAyNXB4O1xyXG4gICAgbGVmdDogMjBweDtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkdhcmFtb25kXCI7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm5ld0RpdiB7XHJcbiAgICAvKiBwb3NpdGlvbjogYWJzb2x1dGU7ICovXHJcbiAgICBoZWlnaHQ6IDcwcHg7XHJcbiAgICB0b3A6IC0zcmVtO1xyXG4gICAgLyogYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7ICovXHJcbiAgfVxyXG4gIFxyXG4gIC5uZXdEaXYgaHIge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgYm9yZGVyLXRvcDogM3B4IHJnYig1OCwgMTY1LCAyMDEpO1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZCBub25lIG5vbmUgbm9uZTtcclxuICAgIHRvcDogMzRweDtcclxuICAgIHdpZHRoOiAxMCU7XHJcbiAgfVxyXG5cclxuLmxpbmsge1xyXG4gICAgY29sb3I6IHJnYigyNTUsIDE2NiwgMCk7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIGZvbnQtc2l6ZTogMjJweDtcclxufVxyXG5cclxuLmxpbms6aG92ZXIge1xyXG4gICAgY29sb3I6IHJnYig1OCwgMTY1LCAyMDEpO1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProfileComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
